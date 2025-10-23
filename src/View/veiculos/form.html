@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+
+
+<style>
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+ body {
+            background-color: rgb(251, 251, 251);
+            min-height: 100vh;
+            padding: 20px;
+            margin: 0;
+        }
+        header {
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            width: 100%;
+            z-index: 1000;
+            margin-bottom: 30px; 
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo h1 {
+            font-size: 50px;
+            color: #333;
+            font-weight: bold;
+        }
+        .navigation ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .navigation ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        
+        .grid { 
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        
+        }
+
+        
+</style>
+
+</head>
+
+<body>
+    
+    <body>
+        <div class="container">
+            <header>
+                <div class="header-container">
+                    <div class="logo">
+                        <h1>Adicionar/Editar</h1>
+                        <div class="grid" id="vehicleGrid"></div>
+                    </div>
+            </header>
+
+        <form action="adicionareditar"></form>
+        <label h1>id:</label >
+        <input type="number" id="id">
+<br>
+        <label for="marca" h1>marca</label>
+        <input type="text" id="marca">
+        <br>
+
+        <label for="modelo">modelo</label>
+        <input type="text" id="modelo">
+
+        <br>
+
+        <label for="preco" h1>preco</label>
+        <input type="number" id="preco">
+<br>
+<br>
+        <div id="imag">
+            <label for="img">imagens</label>
+            <input type="file" name="arquivos" id="img"
+
+        </div>
+<br><br>
+<button>CONFIRMAR</button>
+        
+</div>
+
+
+
+</body>
+</html>
+    
